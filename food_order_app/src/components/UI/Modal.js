@@ -5,7 +5,9 @@ import CartContext from "../../store/cart-ctx";
 
 const Backdrop = () => {
   const ctx = useContext(CartContext);
-  return <div className={classes.backdrop} onClick={ctx.onCartToggle} />;
+  return (
+    <div className={classes.backdrop} onClick={ctx.cartContext.onCartToggle} />
+  );
 };
 
 const ModalOverlay = (props) => {

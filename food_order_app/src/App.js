@@ -7,9 +7,10 @@ import CartContext from "./store/cart-ctx";
 
 function App() {
   const ctx = useContext(CartContext);
+  const cartOpen = ctx.cartContext.isCartShown;
   return (
     <>
-      {ctx.isCartShown && <Cart />}
+      {cartOpen && <Cart />}
       <Header title="ReactMeals" />
       <main>
         <Meals />

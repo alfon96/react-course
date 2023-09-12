@@ -6,7 +6,11 @@ import { useContext } from "react";
 const HeaderCartButton = (props) => {
   const ctx = useContext(CartContext);
   return (
-    <button type="button" className={classes.button} onClick={ctx.onCartToggle}>
+    <button
+      type="button"
+      className={classes.button}
+      onClick={ctx.cartContext.onCartToggle}
+    >
       <span className={classes.icon}>
         <CartIcon />
       </span>

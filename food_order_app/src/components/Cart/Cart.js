@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import CartContext from "../../store/cart-ctx";
 import Modal from "../UI/Modal";
 import classes from "./Cart.module.css";
+import CartContext from "../../store/cart-ctx";
 
 const Cart = (props) => {
   const ctx = useContext(CartContext);
@@ -20,7 +20,10 @@ const Cart = (props) => {
         <span>35.62</span>
       </div>
       <div className={classes.actions}>
-        <button className={classes["button--alt"]} onClick={ctx.onCartToggle}>
+        <button
+          className={classes["button--alt"]}
+          onClick={ctx.cartContext.onCartToggle}
+        >
           Close
         </button>
         <button className={classes.button}>Order</button>
