@@ -1,9 +1,12 @@
+import CartContext from "../../store/cart-ctx";
 import CartIcon from "../Cart/CartIcon";
 import classes from "./HeaderCartButton.module.css";
+import { useContext } from "react";
 
 const HeaderCartButton = (props) => {
+  const ctx = useContext(CartContext);
   return (
-    <button className={classes.button}>
+    <button type="button" className={classes.button} onClick={ctx.onCartToggle}>
       <span className={classes.icon}>
         <CartIcon />
       </span>
