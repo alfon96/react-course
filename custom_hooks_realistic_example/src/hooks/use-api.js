@@ -15,9 +15,11 @@ const useApi = () => {
       });
 
       if (!response.ok) {
+        console.log("Http problem");
         throw new Error("Request failed!");
       }
 
+      console.log("Request sent correctly");
       const data = await response.json();
       applyData(data);
     } catch (err) {
