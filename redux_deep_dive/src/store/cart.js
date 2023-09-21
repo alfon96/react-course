@@ -4,6 +4,7 @@ const initialCartState = {
   isShown: true,
   items: {},
   totalAmount: 0,
+  totalElements: 0,
 };
 
 const cartSlice = createSlice({
@@ -27,10 +28,12 @@ const cartSlice = createSlice({
         state.items[action.payload.id].total += action.payload.price;
       }
       state.totalAmount += action.payload.price;
+      state.totalElements++;
     },
     removeItem(state, action) {
       if (state.items[action.payload.id]) {
         state.totalAmount -= state.items[action.payload.id].price;
+        state.totalElements--;
         if (state.items[action.payload.id].quantity === 1) {
           delete state.items[action.payload.id];
         } else {
