@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"New Event At Cemetery","image":"https://newsmondo.it/wp-content/uploads/2023/09/IM_Giorgio_Napolitano_1.jpg","date":"2023-09-21","description":"An old man enters in a coffin","id":"af167fcd-2458-4c30-b6ce-c95919c7f764"},{"title":"Finally Friday","image":"https://europeanbusinessmagazine.com/wp-content/uploads/2019/05/event.jpg","date":"2023-10-01","description":"What? Ots mo","id":"f3fa93f8-8be8-43f2-bf2c-e09e7e239e55"},{"title":"Hello","image":"https://th.bing.com/th/id/OIP.7znQ4YhftA8Lr_WoZJHymQHaHa?pid=ImgDet&rs=1","date":"2023-09-16","description":"Take a while","id":"7134972f-a159-4ac0-8a6a-8a86dc8c84e0"},{"title":"Communist party ","image":"https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2012/01/13/Foreign/Images/Russia_Protest_0b91b.jpg?t=20170517","date":"2023-10-07","description":"Don't forget to bring your own money","id":"35086f45-e52e-45e6-ab07-8dbb5c4e9c46"},{"title":"Glasses of Wine","image":"https://th.bing.com/th/id/OIP.7znQ4YhftA8Lr_WoZJHymQHaHa?pid=ImgDet&rs=1","date":"2023-09-28","description":"drink until you die","id":"5cac8f21-6af7-4031-977d-597f0250f545"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
