@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"Hydroponic Future","image":"https://th.bing.com/th/id/OIP.IkUde3g1QN5X84fO9tJ6PQHaFS?pid=ImgDet&rs=1","date":"2023-09-24","description":"Hydroponics farming","id":"12b68a88-4dc2-4cdb-9781-aafe5c2a4fd9"}],"users":[{"email":"alfalcone@k.com","password":"$2a$12$78/ZtAIS6igo6.8V5OOHQ.ATQCvqnDFfTqXhWU1FlZRx7G3rVfalW","id":"ae02a2bb-b40c-4f1c-91ad-2b7bb5880104"},{"email":"alfalcone@k.coma","password":"$2a$12$VLY1zaDvGHaTseMud1ULrOrN8lAKFbsrKcay8Q7.S8UBjyeXzG0sW","id":"43a6ef54-0377-46e2-a945-3865a070731f"},{"email":"asvasvav@dsd.om","password":"$2a$12$bhtxEMtbvwSq/urEnJ9q1uKuo.vo.Z87TBBxlbBdPesX003HHY8TK","id":"3f78a4b8-16f2-441a-9a77-bd69bcb9c150"},{"email":"test@test.com","password":"$2a$12$QHRD7xy9zcNbmSAzrqq0vumG2BTJWNDoOoaawRxEAR5Dw0uUxx/qS","id":"4798d1d5-463a-439b-9ae8-4b89f8831d53"}]}
