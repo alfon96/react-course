@@ -1,8 +1,9 @@
-
+import { useRouter } from "next/router";
 
 const MeetupPage = () => {
-    
-  return <h1>Meetup Page with id </h1>;
+  const router = useRouter();
+  const id = router.query.meetupId;
+  return <h1>Meetup Page with id: {id}</h1>;
 };
 
 export default MeetupPage;
