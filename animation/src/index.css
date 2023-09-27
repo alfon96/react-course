@@ -282,9 +282,6 @@ main {
   margin-left: 0.25rem;
 }
 
-.challenge-item-details.expanded .challenge-item-details-icon {
-  transform: rotate(180deg);
-}
 
 .challenge-item-description {
   margin: 0;
@@ -314,6 +311,7 @@ main {
   max-width: 90%;
   z-index: 10;
 }
+
 
 .modal h2 {
   margin-top: 0;
